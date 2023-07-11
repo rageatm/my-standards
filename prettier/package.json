@@ -1,0 +1,19 @@
+{
+  "name": "@rageatm/prettier-config",
+  "version": "0.0.1",
+  "author": "rageatm@alumni.kaist.ac.kr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/rageatm/my-standards.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "clean": "rimraf ./node_modules"
+  },
+  "peerDependencies": {
+    "prettier": "^2.8.6"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@rageatm/tsconfig",
+  "version": "0.0.1",
+  "author": "rageatm@alumni.kaist.ac.kr",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/rageatm/my-standards.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "clean": "rimraf ./node_modules"
+  },
+  "peerDependencies": {
+    "@tsconfig/node-lts": "^18.12.1",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "rimraf": "^4.4.1"
+  }
+}
