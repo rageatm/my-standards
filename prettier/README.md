@@ -8,7 +8,7 @@ $ npm install --save-dev @rageatm/prettier-config
 
 ### prepare prettier config:
 
-create/modify `.prettierrc.js`:
+import module to your `.prettierrc.js`:
 
 ```js
 module.exports = {
