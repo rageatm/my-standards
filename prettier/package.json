@@ -1,6 +1,7 @@
 {
   "name": "@rageatm/prettier-config",
-  "version": "0.0.1",
+  "description": "prettier 3 config",
+  "version": "3.0.0",
   "author": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
   "repository": {
@@ -8,12 +9,12 @@
     "url": "https://gitlab.com/rageatm/my-standards.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "scripts": {
     "clean": "rimraf ./node_modules"
   },
   "peerDependencies": {
-    "prettier": "^2.8.6"
+    "prettier": "^3.0.0"
   }
 }
