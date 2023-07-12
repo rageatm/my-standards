@@ -1,6 +1,7 @@
 {
   "name": "@rageatm/tsconfig",
-  "version": "0.0.1",
+  "description": "tsconfig for node.js 18 & TypeScript 5",
+  "version": "18.5.0",
   "author": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
   "repository": {
@@ -8,16 +9,16 @@
     "url": "https://gitlab.com/rageatm/my-standards.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "scripts": {
     "clean": "rimraf ./node_modules"
   },
   "peerDependencies": {
-    "@tsconfig/node-lts": "^18.12.1",
-    "typescript": "^5.0.2"
+    "@tsconfig/node-lts": "^18.12.3",
+    "typescript": "^5.1.6"
   },
   "devDependencies": {
-    "rimraf": "^4.4.1"
+    "rimraf": "^5.0.1"
   }
 }
