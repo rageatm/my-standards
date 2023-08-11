@@ -6,11 +6,13 @@
 npm install --save-dev @rageatm/tsconfig
 ```
 
-### extends ~~~.json to your `tsconfig.json`:
+### prepare tsconfig:
+
+create/modify your `tsconfig.json`:
 
 ```json
 {
-  "extends": "@rageatm/tsconfig/~~~.json",
+  "extends": "@rageatm/tsconfig/<PRESET>.json",
   "compilerOptions": {
     "outDir": "./lib"
   },
@@ -18,3 +20,8 @@ npm install --save-dev @rageatm/tsconfig
   "exclude": ["./lib", "./node_modules"]
 }
 ```
+
+`<PRESET>` is ...
+
+- backend
+- common
