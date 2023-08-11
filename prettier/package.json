@@ -7,7 +7,7 @@
   "author": "Il-u Han",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/rageatm/my-standards.git"
+    "url": "https://github.com/rageatm/my-standards.git"
   },
   "scripts": {
     "clean": "rimraf package-lock.json ./node_modules"
@@ -15,7 +15,7 @@
   "peerDependencies": {
     "prettier": "^3.0.0"
   },
-  "p3ublishConfig": {
+  "publishConfig": {
     "access": "public"
   }
 }

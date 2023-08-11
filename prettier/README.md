@@ -8,7 +8,7 @@ $ npm install --save-dev @rageatm/prettier-config
 
 ### prepare prettier config:
 
-import module to your `.prettierrc.js`:
+import `<PRESET>` to your `.prettierrc.js`:
 
 ```js
 module.exports = {
@@ -16,7 +16,7 @@ module.exports = {
 };
 ```
 
-`<PRESET>` is ...
+`<PRESET>` is
 
 - backend (same as 'common')
 - common

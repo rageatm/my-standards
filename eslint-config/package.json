@@ -1,16 +1,23 @@
 {
   "name": "@rageatm/eslint-config",
-  "version": "1.0.2",
+  "version": "0.0.1",
   "description": "eslint 8 config",
-  "author": "Han Il-u",
   "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
+  "author": "Han Il-u",
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/rageatm/my-standards.git"
+    "url": "https://github.com/rageatm/my-standards.git"
   },
-  "publishConfig": {
-    "access": "public"
+  "scripts": {
+    "clean": "rimraf package-lock.json ./node_modules"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0"
   },
   "peerDependencies": {
     "@babel/eslint-parser": "^7.22.7",
@@ -33,11 +40,7 @@
       "optional": true
     }
   },
-  "devDependencies": {
-    "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.0"
+  "publishConfig": {
+    "access": "public"
   }
 }

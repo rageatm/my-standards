@@ -8,7 +8,7 @@ npm install --save-dev @rageatm/tsconfig
 
 ### prepare tsconfig:
 
-create/modify your `tsconfig.json`:
+extends `<PRESET>.json` to your `tsconfig.json`:
 
 ```json
 {
@@ -21,7 +21,7 @@ create/modify your `tsconfig.json`:
 }
 ```
 
-`<PRESET>` is ...
+`<PRESET>` is
 
 - backend
 - common
