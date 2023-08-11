@@ -10,7 +10,8 @@
     "url": "https://github.com/rageatm/my-standards.git"
   },
   "scripts": {
-    "clean": "rimraf package-lock.json ./node_modules"
+    "clean": "rimraf ./node_modules",
+    "clean:all": "rimraf package-lock.json ./node_modules"
   },
   "peerDependencies": {
     "@tsconfig/node-lts": "^18.12.3",
