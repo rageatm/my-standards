@@ -1,1 +1,1 @@
-module.exports = { ...require("./common"), bracketSameLine: true };
+module.exports = { ...require('./common'), bracketSameLine: true };

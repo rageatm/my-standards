@@ -3,22 +3,24 @@
 ### Add the package to your `"devDependencies"`:
 
 ```console
-$ npm install --save-dev @day1co/eslint-config eslint
+$ npm install --save-dev @rageatm/eslint-config eslint
 ```
 
 ### prepare eslint config
 
 extends `<PRESET>` to your `.eslintrc.js`:
 
-- common-ts
-- vue-js
-- react-ts
-
 ```js
 module.exports = {
   extends: "@day1co/eslint-config/<PRESET>",
 };
 ```
+
+`<PRESET>` is
+
+- common-ts
+- react-ts
+- vue-js
 
 ### run eslint
 
