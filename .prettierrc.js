@@ -1,1 +1,1 @@
-module.exports = { ...require('./prettier/common') };
+module.exports = { ...require('@rageatm/prettier-config/common') };

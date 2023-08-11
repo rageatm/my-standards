@@ -1,6 +1,6 @@
 {
   "name": "@rageatm/prettier-config",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "prettier 3 config",
   "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "clean": "rimraf package-lock.json ./node_modules"
   },
   "peerDependencies": {
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.1"
   },
   "publishConfig": {
     "access": "public"
