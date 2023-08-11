@@ -7,6 +7,7 @@
     "clean": "rimraf package-lock.json ./node_modules"
   },
   "devDependencies": {
+    "@rageatm/prettier-config": "^0.1.0",
     "rimraf": "^5.0.1"
   }
 }
