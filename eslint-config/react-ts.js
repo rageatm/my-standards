@@ -1,4 +1,3 @@
-// based of coloso/backoffice/.eslintrc
 module.exports = {
   parser: '@typescript-eslint/parser',
   env: { browser: true, node: true },

@@ -20,7 +20,6 @@ module.exports = {
 
 - common-ts
 - react-ts
-- vue-js
 
 ### run eslint
 
