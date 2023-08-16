@@ -1,4 +1,3 @@
-// based on pebbles/.eslintrc.js
 module.exports = {
   env: { jest: true },
   extends: ['plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
