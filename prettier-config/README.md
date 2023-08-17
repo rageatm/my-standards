@@ -12,7 +12,7 @@ import `<PRESET>` to your `.prettierrc.js`:
 
 ```js
 module.exports = {
-  ...require("@rageatm/prettier-config/<PRESET>"),
+  ...require('@rageatm/prettier-config/<PRESET>'),
 };
 ```
 
