@@ -6,10 +6,10 @@
 .vscode
 
 # Node
-node_modules
+/node_modules
 
 # TypeScript output
-lib
+/lib
 
 # Test
-coverage
+/coverage
