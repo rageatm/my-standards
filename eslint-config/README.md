@@ -3,7 +3,7 @@
 ### Add the package to your `"devDependencies"`:
 
 ```console
-$ npm install --save-dev @rageatm/eslint-config eslint
+$ npm install --save-dev @rageatm/eslint-config
 ```
 
 ### prepare eslint config
@@ -12,7 +12,7 @@ extends `<PRESET>` to your `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: "@day1co/eslint-config/<PRESET>",
+  extends: '@rageatm/eslint-config/<PRESET>',
 };
 ```
 
