@@ -5,10 +5,15 @@
   "author": "Il-u Han",
   "scripts": {
     "clean": "rimraf ./node_modules",
-    "clean:all": "rimraf package-lock.json ./node_modules"
+    "clean:all": "rimraf package-lock.json ./node_modules",
+    "lint": "eslint ."
   },
   "devDependencies": {
-    "@rageatm/prettier-config": "^0.1.0",
     "rimraf": "^5.0.1"
-  }
+  },
+  "workspaces": [
+    "eslint-config",
+    "prettier-config",
+    "tsconfig"
+  ]
 }

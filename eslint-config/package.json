@@ -14,18 +14,17 @@
     "clean:all": "rimraf package-lock.json ./node_modules"
   },
   "devDependencies": {
-    "eslint": "^8.44.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.0"
+    "prettier": "^3.0.2"
   },
   "peerDependencies": {
-    "@babel/eslint-parser": "^7.22.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-vue": "^9.15.1"
+    "@babel/eslint-parser": "^7.22.10",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "@typescript-eslint/parser": "^6.4.0",
+    "eslint-plugin-react": "^7.33.2"
   },
   "peerDependenciesMeta": {
     "@typescript-eslint/eslint-plugin": {
@@ -36,12 +35,9 @@
     },
     "eslint-plugin-react": {
       "optional": true
-    },
-    "eslint-plugin-vue": {
-      "optional": true
     }
   },
   "publishConfig": {
-    "access": "public"
+    "registry": "https://npm.pkg.github.com"
   }
 }
