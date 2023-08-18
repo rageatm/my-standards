@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "@rageatm/tsconfig/backend",
+  "display": "@rageatm/tsconfig/common",
   "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
     "allowUnreachableCode": false,
