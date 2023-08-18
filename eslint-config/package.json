@@ -1,6 +1,6 @@
 {
   "name": "@rageatm/eslint-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "eslint 8 config",
   "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
