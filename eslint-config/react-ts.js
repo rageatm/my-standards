@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   env: { browser: true, node: true },
   extends: [
     'eslint:recommended',
@@ -7,7 +8,7 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
   ],
   parser: '@typescript-eslint/parser',
-  parserOptions: { ecmaVersion: '2021', lib: ['2021'], sourceType: 'module' },
+  parserOptions: { ecmaVersion: 2021, lib: ['es2021'], sourceType: 'module' },
   plugins: ['import', '@typescript-eslint'],
   rules: {
     '@typescript-eslint/explicit-module-boundary-types': 'off',
