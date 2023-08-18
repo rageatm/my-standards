@@ -9,7 +9,7 @@
     "strict": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "types": ["node", "jest"],
+    "types": ["node"],
     "declaration": true,
     "newLine": "lf",
     "sourceMap": true,
