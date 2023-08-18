@@ -1,7 +1,7 @@
 {
   "name": "@rageatm/eslint-config",
   "version": "0.0.2",
-  "description": "eslint 8 config",
+  "description": "eslint 8 for TypeScript config",
   "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
   "author": "Han Il-u",
