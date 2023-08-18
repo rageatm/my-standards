@@ -18,7 +18,6 @@ module.exports = {
 
 `<PRESET>` is
 
-- backend (same as 'common')
 - common
 - frontend
 
