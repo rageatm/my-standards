@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { jest: true, node: true },
+  env: { node: true },
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   parserOptions: { ecmaVersion: 2021, lib: ['es2021'], sourceType: 'module' },

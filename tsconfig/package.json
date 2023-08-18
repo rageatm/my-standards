@@ -1,7 +1,7 @@
 {
   "name": "@rageatm/tsconfig",
   "description": "tsconfig for TypeScript 5",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
   "author": "Il-u Han",
