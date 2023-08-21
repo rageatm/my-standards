@@ -1,22 +1,21 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "display": "@rageatm/tsconfig/common",
   "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
     "allowUnreachableCode": false,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "strict": true,
     "module": "commonjs",
     "moduleResolution": "node",
     "types": ["node"],
     "declaration": true,
     "newLine": "lf",
+    "outDir": "../../../dist",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2021"],
     "target": "es2021"
-  }
+  },
+  "include": ["../../../src"],
+  "exclude": ["../../../dist", "../../../node_modules"]
 }

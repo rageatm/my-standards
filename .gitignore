@@ -9,7 +9,10 @@
 /node_modules
 
 # TypeScript output
-/lib
+/dist
 
 # Test
 /coverage
+
+# Next.js
+.next

@@ -23,5 +23,4 @@ extends `<PRESET>.json` to your `tsconfig.json`:
 
 `<PRESET>` is
 
-- backend
 - common
