@@ -9,7 +9,7 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'warn',
     '@typescript-eslint/no-namespace': 'off',
     'import/newline-after-import': 'error',
-    'no-console': ['error'],
+    'no-console': 'warn',
     'eol-last': 'error',
   },
 };
