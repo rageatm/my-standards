@@ -9,7 +9,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "rimraf": "^5.0.1"
+    "rimraf": "latest"
   },
   "workspaces": [
     "eslint-config",
