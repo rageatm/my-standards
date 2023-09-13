@@ -1,7 +1,7 @@
 {
   "name": "@rageatm/tsconfig",
   "description": "tsconfig for TypeScript 5",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
   "author": "Il-u Han",
@@ -15,7 +15,7 @@
   },
   "peerDependencies": {
     "@tsconfig/node-lts": "^18.12.3",
-    "@types/node": "20.5.0",
+    "@types/node": "^20.5.0",
     "typescript": "^5.1.6"
   },
   "publishConfig": {
