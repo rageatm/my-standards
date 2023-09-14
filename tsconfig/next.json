@@ -2,15 +2,15 @@
   "display": "@rageatm/tsconfig/next",
   "extends": "./common.json",
   "compilerOptions": {
+    "module": "esnext",
     "moduleResolution": "bundler",
     "paths": { "@/*": ["./src/*"] },
     "types": [],
     "noEmit": true,
+    "allowJs": true,
     "plugins": [{ "name": "next" }],
     "isolatedModules": true,
     "jsx": "preserve",
     "lib": ["dom", "dom.iterable", "es2022"]
-  },
-  "include": ["../../../src", "../../../next-env.d.ts", "../../../.next/types/**/*.ts"],
-  "exclude": ["../../../node_modules"]
+  }
 }
