@@ -24,4 +24,4 @@ extends `<PRESET>.json` to your `tsconfig.json`:
 `<PRESET>` is
 
 - common
-- react
+- next
