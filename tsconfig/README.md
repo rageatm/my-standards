@@ -12,9 +12,10 @@ extends `<PRESET>.json` to your `tsconfig.json`:
 
 ```json
 {
+  "compilerOptions": {},
   "extends": "@rageatm/tsconfig/<PRESET>.json",
   "compilerOptions": {
-    "outDir": "./lib"
+    ...
   },
   "include": ["./src"],
   "exclude": ["./lib", "./node_modules"]
