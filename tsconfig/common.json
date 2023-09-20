@@ -5,7 +5,6 @@
     "allowUnreachableCode": false,
     "noImplicitOverride": true,
     "noImplicitReturns": true,
-    "module": "es2022",
     "resolveJsonModule": true,
     "types": ["node"],
     "declaration": true,
@@ -14,7 +13,6 @@
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "lib": ["es2022"],
-    "target": "es2022",
     "incremental": true
   }
 }
