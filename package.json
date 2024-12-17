@@ -1,8 +1,10 @@
 {
   "name": "my-standards",
   "description": "Dev standards for rageatm",
-  "email": "rageatm@alumni.kaist.ac.kr",
-  "author": "Il-u Han",
+  "author": {
+    "email": "rageatm78@gmail.com",
+    "name": "Il-u Han"
+  },
   "scripts": {
     "clean": "rimraf ./node_modules",
     "clean:all": "rimraf package-lock.json ./node_modules",

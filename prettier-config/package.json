@@ -2,9 +2,11 @@
   "name": "@rageatm/prettier-config",
   "version": "0.0.3",
   "description": "prettier 3 config",
-  "email": "rageatm@alumni.kaist.ac.kr",
   "license": "MIT",
-  "author": "Il-u Han",
+  "author": {
+    "email": "rageatm78@gmail.com",
+    "name": "Il-u Han"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rageatm/my-standards.git"
