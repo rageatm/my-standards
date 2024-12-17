@@ -1,10 +1,12 @@
 {
   "name": "@rageatm/tsconfig",
-  "description": "tsconfig for TypeScript 5",
   "version": "0.0.5",
-  "email": "rageatm@alumni.kaist.ac.kr",
+  "description": "tsconfig for TypeScript 5",
   "license": "MIT",
-  "author": "Il-u Han",
+  "author": {
+    "email": "rageatm78@gmail.com",
+    "name": "Il-u Han"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/rageatm/my-standards.git"
